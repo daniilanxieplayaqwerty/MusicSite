@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог Музичних Інструментів</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Гітари</h1>
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Пошук гітар" />
+        <a href="index.html" class="back-link">← На головну</a>
+      </div>
+
+      <div class="categories">
+        <a href="guitars.html">Гітари</a>
+        <a href="keyboards.html">Клавішні</a>
+        <a href="drums.html">Ударні</a>
+        <a href="wind.html">Духові</a>
+        <a href="accessories.html">Аксесуари</a>
+      </div>
+
+      <div class="products">
+        <div class="product" data-id="guitar1">
+          <img
+            src="images/guitars/acoustic-guitar.png"
+            alt="Акустична гітара"
+          />
+          <h3>Акустична Гітара</h3>
+          <p>$299</p>
+          <button>Детальніше</button>
+        </div>
+
+        <div class="product" data-id="guitar2">
+          <img src="images/guitars/electric-guitar.png" alt="Електрогітара" />
+          <h3>Електрогітара</h3>
+          <p>$399</p>
+          <button>Детальніше</button>
+        </div>
+
+        <div class="product" data-id="guitar3">
+          <img src="images/guitars/bass-guitar.png" alt="Бас-гітара" />
+          <h3>Бас-гітара</h3>
+          <p>$349</p>
+          <button>Детальніше</button>
+        </div>
+      </div>
+
+      <footer>
+        <p>Авторське право © Kavarnaly Daniil. Усі права захищено.</p>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
